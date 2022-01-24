@@ -1,0 +1,51 @@
+{
+  "files.autoSave": "afterDelay",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "editor.cursorBlinking": "expand",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "tailwindCSS.emmetCompletions": true,
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.codeLensFontFamily": "Fira Code",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Rainbow Dark",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000000",
+    "editor.background": "#011627",
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#00FF00",
+    "functions": "#FF0000",
+    "keywords": "#00FF00",
+    "strings": "#fff",
+    "variables": "#fff",
+    "numbers": "#fff",
+    "textMateRules": [
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#00FF00",
+        },
+      }
+    ]
+  }
+
+}
+  

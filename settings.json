@@ -39,7 +39,7 @@
     "numbers": "#fff",
     "textMateRules": [
       {
-        "scope": "keyword",
+        "scope": "keyword.operator",
         "settings": {
           "foreground": "#00FF00",
         },

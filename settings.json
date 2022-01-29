@@ -48,4 +48,51 @@
   }
 
 }
+
+
+
+
+
+
+
+
+// 2nd settings
+
+{
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "'fira code iscript',Consolas, 'Courier New', monospace",
+
+  "files.autoSave": "afterDelay",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "editor.cursorBlinking": "expand",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "tailwindCSS.emmetCompletions": true,
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+"editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": -1,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+
+
+
+
+  "editor.tokenColorCustomizations": {
+    "keywords": "#00e1ff",
+    "functions": "#FF0000",
+  }
+}
   

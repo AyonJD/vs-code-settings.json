@@ -56,12 +56,11 @@
 
 
 
-// 2nd settings
+// 2nd settings(Favorite one)
 
 {
   "workbench.colorTheme": "Cobalt2",
-  "editor.fontFamily": "'fira code iscript',Consolas, 'Courier New', monospace",
-
+  "editor.fontFamily": "'cascadia code','fira code iscript',Consolas, 'Courier New', monospace",
   "files.autoSave": "afterDelay",
   "emmet.triggerExpansionOnTab": true,
   "editor.formatOnSave": true,
@@ -81,18 +80,19 @@
   "powermode.presets": "flames",
   "editor.fontSize": 14,
   "editor.fontWeight": "500",
-"editor.fontLigatures": true,
+  "editor.lineHeight": 1.3,
+  "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": -1,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-
-
-
-
   "editor.tokenColorCustomizations": {
     "keywords": "#00e1ff",
     "functions": "#FF0000",
-  }
+  },
+  "workbench.colorCustomizations" : {
+    "terminal.foreground" : "#00FF00",
+    "terminal.background" : "#000000"
+  },
 }
   

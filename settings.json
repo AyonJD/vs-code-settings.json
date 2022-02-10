@@ -83,16 +83,30 @@
   "editor.lineHeight": 1.3,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": -1,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.tokenColorCustomizations": {
-    "keywords": "#00e1ff",
-    "functions": "#FF0000",
+    "keywords": "#00FDD2",
+    "functions": "#f50",
+    "comments": "#686bff"
   },
-  "workbench.colorCustomizations" : {
-    "terminal.foreground" : "#00FF00",
-    "terminal.background" : "#000000"
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00eeff",
+    "terminal.background": "#000000",
+    "terminalCursor.foreground": "#00e1ff",
+    "terminalCursor.background": "#00e1ff"
   },
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": false
+  },
+  "editor.mouseWheelZoom": true,
+  "liveServer.settings.donotVerifyTags": true
 }
+
   

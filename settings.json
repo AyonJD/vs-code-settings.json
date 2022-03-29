@@ -59,13 +59,10 @@
 // 2nd settings(Favorite one)
 
 {
-  "workbench.colorTheme": "Cobalt2",
   "editor.fontFamily": "'cascadia code','fira code iscript',Consolas, 'Courier New', monospace",
   "files.autoSave": "afterDelay",
   "emmet.triggerExpansionOnTab": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.arrowParens": "avoid",
   "prettier.endOfLine": "auto",
   "prettier.jsxSingleQuote": true,
   "prettier.requireConfig": true,
@@ -78,17 +75,31 @@
   "tailwindCSS.emmetCompletions": true,
   "powermode.enabled": true,
   "powermode.presets": "flames",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.fontWeight": "500",
-  "editor.lineHeight": 1.3,
+  "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.tokenColorCustomizations": {
     "keywords": "#00FDD2",
     "functions": "#f50",
-    "comments": "#686bff"
+    "comments": "#6365fa",
+    "textMateRules": [
+      {
+        "scope": "storage.type.function.js",
+        "settings": {
+          // "foreground": "#FF00FF",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "meta.function-call",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   },
   "workbench.colorCustomizations": {
     "terminal.foreground": "#00eeff",
@@ -106,7 +117,16 @@
     "javascript": false
   },
   "editor.mouseWheelZoom": true,
-  "liveServer.settings.donotVerifyTags": true
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Cobalt2",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
+
 
   
